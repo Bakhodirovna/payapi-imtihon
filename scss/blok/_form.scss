@@ -1,0 +1,57 @@
+.form{
+    position: relative;
+    &__input{
+        width: 445px;
+        height: 48px;
+        padding-left: 27px;
+        background: white;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        &::placeholder{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            color: #36536B;
+        }
+    }
+    &__btn{
+        position: absolute;
+        left: 250px;
+        right: 0;
+    }
+  }
+  @media screen and (max-width:375px) {
+    .form{
+        position: relative;
+        &__input{
+            width: 328px;
+            height: 48px;
+            padding-left: 27px;
+            background: white;
+            box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+            border-radius: 24px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            &::placeholder{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 18px;
+                color: #36536B;
+            }
+        }
+        &__btn{
+            width: 328px;
+            position: absolute;
+            left: 0;
+            top: 60px;
+            right: 0;
+        }
+      }
+  }
+  
